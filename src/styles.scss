@@ -1,6 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 
-.side-menu i a {
+.side-menu li a {
     color: #000;
-    border: none;
+    text-decoration: none;
+}
+
+.side-menu li a :hover{
+    background: rgb(194, 194, 244);
+    color: blue;
 }
