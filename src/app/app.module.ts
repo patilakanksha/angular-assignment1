@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ContentComponent } from './content/content.component';
 import { MainAppComponent } from './main-app/main-app.component';
 import { FormsModule } from '@angular/forms';
+import { OperationButtonComponent } from './operation-button/operation-button.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FormsModule } from '@angular/forms';
     NavbarComponent,
     FooterComponent,
     ContentComponent,
-    MainAppComponent
+    MainAppComponent,
+    OperationButtonComponent
   ],
   imports: [
     BrowserModule,
